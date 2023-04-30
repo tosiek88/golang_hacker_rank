@@ -19,9 +19,11 @@ import (
  */
 
 func towerBreakers(n int32, m int32) int32 {
-	// Write your code here
-
-	return 0
+	if m == 1 || n%2 == 0 {
+		return 2
+	} else {
+		return 1
+	}
 }
 
 func main() {
